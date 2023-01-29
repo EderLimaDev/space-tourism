@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-family:"Barlow Condensed", "sans-serif" ;
+    font-size: 1rem;
+}
+
+h1{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.375rem;
+    line-height: 172px;
+    text-transform: uppercase;
+}
+
+h2{
+    font: size 1.75rem;
+    letter-spacing: 4.75px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 32px;
+}
+.logo-nav{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 55px;
+    top: 64px;
+}
+
+hr{
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    left: 167px;
+    top: 88px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.navigation{
+    position: absolute;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+
+.navigation ul{
+    position: absolute;
+    height: 19px;
+    width: 542px;
+    margin: 40px 0px 0 90px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    
+
+}
+.presentation-text{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 165px;
+    top: 300px;
+
+}
+.btn-explore{
+    font-family: 'Bellefair';
+    font-size: 2rem;
+    letter-spacing: 2.7px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    width: 174px;
+    height: 174px;
+    left: 950px;
+    top:350px;
+}
